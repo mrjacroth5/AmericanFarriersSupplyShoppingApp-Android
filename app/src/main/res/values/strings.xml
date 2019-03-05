@@ -4,4 +4,8 @@
     <string name="signup_btn">SIGN UP</string>
     <string name="ent_phone">Enter Phone</string>
     <string name="ent_pass">Enter Password</string>
+    <string name="pass_confirm">Confirm Password</string>
+    <string name="reg_name">Enter Name</string>
+    <string name="reg_add">Enter Address</string>
+    <string name="reg_email">Enter E-Mail Address</string>
 </resources>
