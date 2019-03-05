@@ -11,31 +11,47 @@
 
     <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" app:srcCompat="@drawable/logo" android:id="@+id/imageView"
-            android:layout_weight="3" android:scaleType="fitStart" android:padding="8dp" android:layout_margin="16dp"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/logo" android:id="@+id/appLogo"
+            android:layout_weight="1" android:scaleType="fitStart" android:padding="8dp" android:layout_margin="16dp"
             android:adjustViewBounds="true" android:cropToPadding="true"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="phone"
             android:ems="10"
-            android:id="@+id/editText" android:layout_weight="1" android:hint="Enter Mobile Number"/>
+            android:id="@+id/phoneLogin" android:layout_weight="1" android:hint="@string/ent_phone"
+            android:padding="8dp" android:layout_margin="8dp"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:layout_marginBottom="16dp"
             android:ems="10"
-            android:id="@+id/editText2" android:layout_weight="1" android:hint="Enter Password"/>
+            android:id="@+id/passLogin" android:layout_weight="1" android:hint="@string/ent_pass"
+            android:layout_margin="8dp" android:padding="8dp"
+    />
     <TextView
-            android:text="LOGIN"
+            android:text="@string/login_btn"
             android:gravity="center"
             android:textSize="22sp"
             android:layout_marginBottom="24dp"
             android:background="@color/colorPrimary"
             android:textColor="@color/colorBg"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_weight="1"
-            app:fontFamily="sans-serif" android:padding="8dp"/>
+            android:layout_height="wrap_content" android:id="@+id/btnLogin" android:layout_weight="1"
+            app:fontFamily="sans-serif" android:padding="8dp" android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp" android:layout_marginTop="24dp"/>
+
+    <TextView
+            android:text="@string/signup_btn"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorBg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnSignUp" android:layout_weight="1"
+            app:fontFamily="sans-serif" android:padding="8dp" android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"/>
 
 </LinearLayout>

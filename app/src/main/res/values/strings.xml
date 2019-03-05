@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">AmericanFarriersSupplyShoppingApp</string>
+    <string name="app_name">American Farriers Supply</string>
+    <string name="login_btn">LOGIN</string>
+    <string name="signup_btn">SIGN UP</string>
+    <string name="ent_phone">Enter Phone</string>
+    <string name="ent_pass">Enter Password</string>
 </resources>
