@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         btnSignUp.setOnClickListener{
 
-            var i= Intent(this,signupAct::class.java)
+            var i= Intent(this,SignupAct::class.java)
             startActivity(i)
         }
 
