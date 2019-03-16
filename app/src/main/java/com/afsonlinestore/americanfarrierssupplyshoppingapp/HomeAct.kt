@@ -37,9 +37,12 @@ class HomeAct : AppCompatActivity() {
         rq.add(jar)
 
 
-
-
-
+        home_cat.setOnItemClickListener() { adapterView, view, i, l ->
+            var cat:String=list[i]
+            var obj=Intent(this,ItemsAct::class.java)
+            obj.putExtra("cat",cat)
+            startActivity(obj)
+        }
 
 
     }
