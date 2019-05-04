@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this,"Login Failed!", Toast.LENGTH_LONG).show()
                 else
                 {
+                    UserInfo.mobile=phoneLogin.text.toString()
                     var i = Intent(this, HomeAct::class.java)
                     startActivity(i)
                 }
