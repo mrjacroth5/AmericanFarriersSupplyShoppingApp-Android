@@ -25,9 +25,8 @@ class ItemsAct : AppCompatActivity() {
         var url="http://www.afsshoppingapp.com/products/get_catitem.php?item_category=" +cat
         var list=ArrayList<Item>()
 
-        var rq:RequestQueue= Volley.newRequestQueue(this)
+        var rq:RequestQueue=Volley.newRequestQueue(this)
         var jar=JsonArrayRequest(Request.Method.GET,url,null, Response.Listener { response ->
-
 
             for (x in 0..response.length()-1)
                 list.add(Item(response.getJSONObject(x).getInt("id"),
